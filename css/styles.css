@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Gobold';
+  src: url('Gobold.eot');
+  src: url('../lib/font/gobold/Gobold.woff2') format('woff2'),
+       url('../lib/font/gobold/Gobold.woff') format('woff'),
+       url('../lib/font/gobold/Gobold.ttf') format('truetype'),
+       url('../lib/font/gobold/Gobold.svg#Gobold') format('svg'),
+       url('../lib/font/gobold/Gobold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: Gobold, Arial, Helvetica, sans-serif !important;
+}
+
+h3 {
+  line-height: 7rem !important;
+}
+
+h4 {
+  line-height: 4.7rem !important;
+  letter-spacing: .27rem !important;
+}
+
+.highlightOrange {
+  color: #ff900e;
+}
+
+.highlightBlue {
+  color: #0397e2;
+}
+
+.highlightGrey {
+  color: #666666;
+}
+
+.reveal .controls .controls-arrow:before {
+  color: #ff900e;
+}
+.reveal .controls .controls-arrow:after {
+  color: #ff900e;
+}
+
+.borderOrange {
+  border-left: 8px solid #ff900e !important;
+}
+
+section.borderOrange {
+  border: none !important;
+}
+
+.borderBlue {
+  border-left: 8px solid #0397e2 !important;
+}
+
+section.borderBlue {
+  border: none !important;
+}
+
+.left {
+  left: -8.33%;
+  text-align: left;
+  float: left;
+  width: 50%;
+  z-index: -10;
+}
+
+.right {
+  left: 31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index: -10;
+  width: 50%;
+}
+
+.w30 {
+  width: 30%;
+  vertical-align: center;
+  left: -8.33%;
+  text-align: left;
+  float: left;
+  z-index: -10;
+}
+
+.w70 {
+  width: 70%;
+  left: 31.25%;
+  float: right;
+  text-align: right;
+  z-index: -10;
+}
+
+.reveal .progress span {
+  background-color: #ff900e !important;
+}
+
+.reveal a {
+  cursor: pointer !important;
+}
+
